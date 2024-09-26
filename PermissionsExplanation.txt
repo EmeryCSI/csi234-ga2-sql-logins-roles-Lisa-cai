@@ -1,0 +1,22 @@
+1.Explain the different types of permissions you assigned (SELECT, INSERT, UPDATE, DELETE) and what each allows a user to do.
+Select allows users to read a table.
+Insert allows users to insert new data into a table
+The update allows users to modify existing data.
+Delete allows users to delete row.
+
+2.Describe the concept of schema-level permissions vs. table-level permissions.
+Schema-level permissions allow a user to access all objects within that schema.
+Schema includes tables, views, etc. Table lever permissions allow users to control specific tables.
+
+3.Explain how column-level permissions work and why they might be useful.
+Column-level permissions are used to control access to specific columns. For example, the IT role is
+denied the ability to modify the employee salary column.
+
+4.Discuss the principle of least privilege and how it's applied in this RBAC setup.
+The principle of least privilege is giving users minimum permissions to access data to complete
+their jobs. RBAC setup in SQL sends users into different roles to control their access permission.
+The Principle of least privilege is implemented by RBAC setup.
+
+5.Explain the potential security benefits of using roles instead of assigning permissions directly to users.
+Using roles makes it easy to update or change a user's access permissions. We only need to change the role 
+function to achieve it. Directly assigning permissions to users is different. We need to find a specific user to update the data.
